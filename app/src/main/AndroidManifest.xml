@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kunalfarmah.eyecarereminder">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".EyeApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EyeCareReminder">
+
+        <receiver
+            android:name=".receiver.ReminderReceiver"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":eyeCareReminderReceiver"
+            tools:targetApi="q">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.NotificationBroadcastReceiver" />
+
+        <service
+            android:name=".service.NotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":eyeCareService" />
+        <service
+            android:name=".service.TimerService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":eyeCareTimer" />
+
+        <activity
+            android:name=".activity.AlarmSetActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

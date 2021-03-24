@@ -1,0 +1,130 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="image_width">40dp</dimen>
+    <dimen name="image_final_width">30dp</dimen>
+
+    <dimen name="small_plus_image_size">50dp</dimen>
+    <dimen name="medium_image_size">60dp</dimen>
+    <dimen name="large_image_size">80dp</dimen>
+    <dimen name="extralarge_image_size">100dp</dimen>
+
+    <dimen name="extramini_extrasmall_text_size">7sp</dimen>
+    <dimen name="extra_extrasmall_text_size">9sp</dimen>
+    <dimen name="extrasmall_text_size_10">10sp</dimen>
+    <dimen name="extrasmall_text_size_11">11sp</dimen>
+    <dimen name="extrasmall_text_size_12">12sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="small_text_size2">13sp</dimen>
+    <dimen name="post_text_size">15sp</dimen>
+    <dimen name="sub_heading_text_size">17sp</dimen>
+    <dimen name="quiz_tab_title">14sp</dimen>
+    <dimen name="heading_text_size">19sp</dimen>
+    <dimen name="heading_text_size_22">22sp</dimen>
+    <dimen name="large_text_size">25sp</dimen>
+    <dimen name="extra_large_text_size">30sp</dimen>
+
+    <dimen name="normal_button_height">50dp</dimen>
+    <dimen name="normal_button_padding_left_right">10dp</dimen>
+
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp25">25dp</dimen>
+    <dimen name="dp28">28dp</dimen>
+    <dimen name="dp26">26dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp55">55dp</dimen>
+    <dimen name="dp65">65dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp24">24dp</dimen>
+
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp14">14dp</dimen>
+
+    <dimen name="dp120">120dp</dimen>
+    <dimen name="dp130">130dp</dimen>
+    <dimen name="dp100">100dp</dimen>
+    <dimen name="dp125">125dp</dimen>
+    <dimen name="dp200">200dp</dimen>
+    <dimen name="dp220">220dp</dimen>
+    <dimen name="dp90">90dp</dimen>
+    <dimen name="dp32">32dp</dimen>
+    <dimen name="dp150">150dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="dp7">7dp</dimen>
+    <dimen name="dp70">70dp</dimen>
+    <dimen name="dp18">18dp</dimen>
+    <dimen name="dp180">180dp</dimen>
+    <dimen name="dp250">250dp</dimen>
+    <dimen name="dp75">75dp</dimen>
+    <dimen name="dp17">17dp</dimen>
+    <dimen name="dp6">6dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp35">35dp</dimen>
+    <dimen name="dp175">175dp</dimen>
+    <dimen name="dp300">300dp</dimen>
+
+
+    <dimen name="layout_padding">16dp</dimen>
+
+    <dimen name="dp165">165dp</dimen>
+    <dimen name="dp110">110dp</dimen>
+    <dimen name="dp85">85dp</dimen>
+    <dimen name="dp45">45dp</dimen>
+    <dimen name="dp330">330dp</dimen>
+    <dimen name="dp48">48dp</dimen>
+
+
+
+
+    <dimen name="viewpager_margin_overlap">-60dp</dimen>
+    <dimen name="viewpager_margin_overlap_payment">-30dp</dimen>
+
+    <!--genaral spacing-->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_xmedium">7dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="spacing_xxxlarge">55dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="dp0">0dp</dimen>
+
+
+
+    <dimen name="landscapesize">350dp</dimen>
+    <dimen name="potrairtsize">300dp</dimen>
+    <dimen name="potrairtsize2">260dp</dimen>
+    <dimen name="tempsize">300dp</dimen>
+    <dimen name="newEditTextHeight">50dp</dimen>
+    <dimen name="new_icon_width">17dp</dimen>
+    <dimen name="new_icon_height">17dp</dimen>
+    <dimen name="overLayWidth">200dp</dimen>
+
+    <dimen name="ayp_8dp">8dp</dimen>
+    <dimen name="ayp_12sp">12sp</dimen>
+    <dimen name="ayp_menu_dialog_container_margin">8dp</dimen>
+    <dimen name="ayp_menu_item_padding">12dp</dimen>
+    <dimen name="ayp_menu_item_text_size">16sp</dimen>
+    <dimen name="tab_indicator_height">8dp</dimen>
+    <dimen name="moreDrawerSize">280dp</dimen>
+
+</resources>
