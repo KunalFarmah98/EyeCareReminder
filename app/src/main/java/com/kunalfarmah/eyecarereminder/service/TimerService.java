@@ -67,7 +67,6 @@ public class TimerService extends Service {
             @Override
             public void onTick(long millisUntilFinished) {
                 // finding wake, sleep, current and start time in minutes
-                Toast.makeText(getApplicationContext(),"running",Toast.LENGTH_SHORT).show();
                 int wakeHr = sharedPreferences.getInt(Constants.WAKE_HR, 11);
                 int wakeMin = sharedPreferences.getInt(Constants.WAKE_MIN, 0);
 

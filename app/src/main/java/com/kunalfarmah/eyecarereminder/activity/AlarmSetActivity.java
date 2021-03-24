@@ -132,9 +132,9 @@ public class AlarmSetActivity extends AppCompatActivity {
             // using foreground service from Oreo onwards
             else {
                 try {
-                    if (isMyServiceRunning(TimerService.class)) {
+//                    if (isMyServiceRunning(TimerService.class)) {
                         stopService(new Intent(getApplicationContext(), TimerService.class));
-                    }
+//                    }
                 }
                 catch (Exception e){
                 }
