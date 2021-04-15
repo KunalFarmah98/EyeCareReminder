@@ -101,7 +101,7 @@
                 android:layout_gravity="center"
                 android:visibility="gone"
                 android:layout_marginTop="@dimen/dp10"
-                android:background="@drawable/loginbuttonbackground"
+                android:background="@drawable/button_background"
                 android:text="@string/set"
                 android:textColor="@color/white" />
 
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dp10"
-                    android:background="@drawable/loginbuttonbackground"
+                    android:background="@drawable/button_background"
                     android:text="@string/set"
                     android:visibility="gone"
                     android:textColor="@color/white" />
@@ -173,7 +173,7 @@
                     android:layout_marginHorizontal="@dimen/dp10"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:background="@drawable/loginbuttonbackground"
+                    android:background="@drawable/button_background"
                     android:text="@string/set_reminder"
                     android:textColor="@color/white" />
             </LinearLayout>

@@ -38,12 +38,12 @@
             android:name=".service.NotificationService"
             android:enabled="true"
             android:exported="false"
-            android:process=":eyeCareService" />
+            android:process=":eyeCareReminderService" />
         <service
             android:name=".service.TimerService"
             android:enabled="true"
             android:exported="false"
-            android:process=":eyeCareTimer" />
+            android:process=":eyeCareReminderTimer" />
 
         <activity
             android:name=".activity.AlarmSetActivity"
